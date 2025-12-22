@@ -32,7 +32,7 @@ namespace bnj.auto_fields.Editor
             {
                 // Trigger auto-assignment
                 EditorUtility.SetDirty(behavior);
-                AutoAssignerValidator.ForceRefreshMonoBehaviour(behavior);
+                AutoAssigner.ForceRefreshMonoBehaviour(behavior);
                 Debug.Log($"[AutoAssigner] Refreshed {refreshedCount} auto-assigned field(s) on {behavior.name}");
             }
             else

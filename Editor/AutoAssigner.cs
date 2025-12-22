@@ -24,7 +24,7 @@ namespace bnj.auto_fields.Editor
     /// Inspired by Tutorial by Freedom Coding: https://youtu.be/cVxjKphoi5o
     /// </remarks>
     [InitializeOnLoad]
-    public static class AutoAssignerValidator
+    public static class AutoAssigner
     {
         private const BindingFlags _fieldBindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
 
@@ -32,7 +32,7 @@ namespace bnj.auto_fields.Editor
         private static string _lastScenePath = string.Empty;
         private static PrefabStage _lastPrefabStage = null;
 
-        static AutoAssignerValidator()
+        static AutoAssigner()
         {
             EditorApplication.playModeStateChanged += OnPlayModeStateChanged;
             EditorApplication.hierarchyChanged += OnHierarchyChanged;
