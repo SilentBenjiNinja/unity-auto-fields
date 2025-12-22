@@ -1,0 +1,16 @@
+{
+    "name": "com.bnj.auto-fields.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4fea9a1aa32479847b03a8451fe03e2b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
