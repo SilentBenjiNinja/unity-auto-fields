@@ -13,6 +13,7 @@ using Object = UnityEngine.Object;
 // TODO:
 // - Optimize performance by caching results where possible
 // - Other collection types (List, etc.)
+// - what happens when no SerializeField, but Auto is present? Should still work, right?
 
 namespace bnj.auto_fields.Editor
 {
