@@ -5,6 +5,11 @@ using UnityEngine;
 
 namespace bnj.auto_fields.Editor
 {
+    /// <summary>
+    /// Adds a <c>Refresh Auto-Assigned Fields</c> entry to the MonoBehaviour context menu.
+    /// Only shown when the component has at least one <see cref="AutoAttribute"/> field.
+    /// Clears and re-evaluates all <c>[Auto]</c> fields on the selected component.
+    /// </summary>
     public static class AutoAssignerContextMenu
     {
         [MenuItem("CONTEXT/MonoBehaviour/Refresh Auto-Assigned Fields")]

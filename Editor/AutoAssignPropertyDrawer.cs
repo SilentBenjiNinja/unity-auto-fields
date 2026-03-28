@@ -6,6 +6,12 @@ namespace bnj.auto_fields.Editor
 {
     // Credit to Tutorial by Freedom Coding:
     // https://youtu.be/cVxjKphoi5o
+    /// <summary>
+    /// Custom property drawer for fields marked with <see cref="AutoAttribute"/>.
+    /// Renders an error icon next to the field when it is unassigned, making missing
+    /// assignments immediately visible in the Inspector without entering Play Mode.
+    /// The field is read-only once assigned; clear it via the context menu to force reassignment.
+    /// </summary>
     [CustomPropertyDrawer(typeof(AutoAttribute))]
     public class AutoAssignPropertyDrawer : PropertyDrawer
     {
