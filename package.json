@@ -1,6 +1,6 @@
 {
   "name": "com.bnj.auto-fields",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "BNJ - Auto Fields",
   "description": "Eliminates manual Inspector wiring via the [Auto] attribute. Automatically assigns Component, GameObject, and ScriptableObject fields on any MonoBehaviour — including arrays. Runs in the Editor on hierarchy changes, scene/prefab transitions, and assembly reloads. Validates assignments on Play Mode entry and pauses with an error if any [Auto] field is null.",
   "unity": "2020.3",
