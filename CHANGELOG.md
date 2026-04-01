@@ -1,3 +1,11 @@
+# 1.0.3
+
+### Improvements
+
+* Assembly definition references switched from GUID to name-based — ensures references resolve correctly when the package is installed via UPM or Git submodule
+
+---
+
 # 1.0.2
 
 ### Bug Fixes

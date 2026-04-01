@@ -2,7 +2,7 @@
     "name": "com.bnj.auto-fields.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:4fea9a1aa32479847b03a8451fe03e2b"
+        "com.bnj.auto-fields.Runtime"
     ],
     "includePlatforms": [
         "Editor"
