@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using bnj.auto_fields.Runtime;
-using Sirenix.Utilities;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
